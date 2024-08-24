@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.navigation {
+  width: 102%;
+  padding: 0;
+  margin: 2 -1% 0 -1%; 
+}
+
+.navigation ul {
+  top: 0;
+  width: 50%;
+  height: 8%;
+  border: 1px solid #fff;
+  list-style-type: none;
+  margin: 0;
+  margin-left: 25%;
+  margin-top: 0.5%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #172e52;
+  font-family: 'Lato', sans-serif;
+}
+
+.navigation li {
+  float: left;
+  margin-top: 0.5%;
+}
+
+.navigation li:first-child {
+  margin-left: 10%;
+  margin-top: 0;
+}
+
+.navigation li:nth-child(2) {
+  margin-left: 2%;
+}
+
+.navigation a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 22px 15px;
+  padding-top: 28px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: #0c1729;
+}
