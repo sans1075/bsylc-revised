@@ -40,7 +40,7 @@ p {
   width: 102%;
   padding: 0;
   margin: 2 -1% 0 -1%; 
-  font-size: 200%;
+  font-size: 100%;
 }
 
 .navigation ul {
@@ -57,6 +57,7 @@ p {
 .navigation li {
   float: left;
   margin-top: 0.5%;
+  margin-left: 3%;
 }
 
 .navigation li:first-child {
@@ -73,8 +74,8 @@ p {
   color: white;
   font-size: 200%;
   text-align: center;
-  padding: 0.2% 0.1%;
-  padding-top: 0.3%;
+  padding: 2% 1%;
+  padding-top: 3%;
   text-decoration: none;
 }
 
