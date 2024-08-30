@@ -46,11 +46,8 @@ p {
   top: 0;
   width: 102%;
   height: 14%;
-  border: 1px solid #fff;
   list-style-type: none;
   margin: 0;
-  margin-left: 25%;
-  margin-top: 0.5%;
   padding: 0;
   overflow: hidden;
   background-color: #172e52;
@@ -73,9 +70,10 @@ p {
 .navigation a {
   display: block;
   color: white;
+  font-size: 200%;
   text-align: center;
-  padding: 22px 15px;
-  padding-top: 28px;
+  padding: 0.2% 0.1%;
+  padding-top: 0.3%;
   text-decoration: none;
 }
 
