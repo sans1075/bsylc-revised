@@ -37,49 +37,38 @@ p {
 }
 
 .navigation {
-  width: 102%;
-  padding: 0;
-  margin: 2 -1% 0 -1%; 
+  width: 100%;
+  background-color: #172e52;
 }
 
 .navigation ul {
-  top: 0;
-  width: 102%;
-  height: 14%;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #172e52;
+  display: flex;
+  justify-content: center;
 }
 
 .navigation li {
-  float: left;
-  margin-top: 0.5%;
-}
-
-.navigation li:first-child {
-  margin-left: 10%;
-  margin-top: 0;
-}
-
-.navigation li:nth-child(2) {
-  margin-left: 2%;
+  margin: 0;
 }
 
 .navigation a {
   display: block;
   color: white;
-  font-size: 200%;
+  font-size: 1.2rem; /* Adjusted for better responsiveness */
   text-align: center;
-  padding: 0.2% 0.1%;
-  padding-top: 0.3%;
+  padding: 15px 20px; /* Adjust padding as needed */
   text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navigation a:hover {
   background-color: #0c1729;
+  color: #d4e0e8; /* Light color for better contrast on hover */
 }
+
 
 .footer {
   background-color: #172e52;
