@@ -35,10 +35,6 @@ p {
   font-size: 130%;
   font-weight: 400;
 }
-p {
-    font-size: 100%;
-    color: #555;
-}
 
 .navigation {
   width: 102%;
@@ -48,8 +44,8 @@ p {
 
 .navigation ul {
   top: 0;
-  width: 50%;
-  height: 8%;
+  width: 102%;
+  height: 14%;
   border: 1px solid #fff;
   list-style-type: none;
   margin: 0;
