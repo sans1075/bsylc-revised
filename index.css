@@ -45,7 +45,6 @@ p {
 .navigation ul {
   top: 0;
   width: 102%;
-  height: 30%;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -94,7 +93,7 @@ p {
 
 .footer-text h4 {
   margin-left: 3%;
-  margin-top: 6%;
+  margin-top: 11%;
 }
 
 .footer-text br {
