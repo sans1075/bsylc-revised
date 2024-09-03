@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 600%;
+  display: block;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 400%;
+  display: block;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 250%;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 130%;
+  font-weight: 400;
+}
+
+.navigation {
+  width: 102%;
+  padding: 0;
+  margin: -1%;
+}
+
+.navigation ul {
+  top: 0;
+  width: 102%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #172e52;
+}
+
+.navigation li {
+  float: left;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.navigation li:first-child {
+  margin-left: 3%;
+}
+
+.navigation a {
+  display: block;
+  color: white;
+  font-size: 200%;
+  text-align: center;
+  padding: 2% 1%;
+  padding-top: 3%;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: #0c1729;
+}
+
+.footer {
+  background-color: #172e52;
+  color: white;
+  width: 100%;
+  margin: 0 -1% 0 -1%;
+  padding: 1%;
+  margin-bottom: -2%;
+}
+
+.footer-text {
+  display: flex;
+  margin-left: 33%;
+  margin-top: -2%;
+}
+
+.footer-text h4 {
+  margin-left: 3%;
+  margin-top: 11%;
+}
+
+.footer-text br {
+  display: block;
+  content: "";
+  margin-top: -4%;
+}
+
+hr {
+  width: 65%;
+  border-color: #8b97a9;
+  margin-top: -1%;
+}
+
+.footer-contact {
+  text-align: center;
+  display: flex;
+}
+
+.footer-contact p {
+  font-size: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-contact h4 {
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.footer-contact-main,
+.footer-contact-map {
+  width: 30%;
+  height: 20%;
+  margin-right: -10%;
+  margin-left: -10%;
+}
+
+.footer-contact-main {
+  margin-left: 15%;
+}
+
+.footer-contact-insta {
+  width: 30%;
+  height: 20%;
+}
