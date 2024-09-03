@@ -39,8 +39,7 @@ p {
 .navigation {
   width: 102%;
   padding: 0;
-  margin: 2 -1% 0 -1%; 
-  font-size: 100%;
+  margin: -1%;
 }
 
 .navigation ul {
@@ -56,17 +55,12 @@ p {
 
 .navigation li {
   float: left;
-  margin-top: 0.5%;
-  margin-left: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .navigation li:first-child {
-  margin-left: 10%;
-  margin-top: 0;
-}
-
-.navigation li:nth-child(2) {
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 .navigation a {
@@ -104,9 +98,9 @@ p {
 }
 
 .footer-text br {
- display: block;
- content: "";
- margin-top: -4%;
+  display: block;
+  content: "";
+  margin-top: -4%;
 }
 
 hr {
@@ -146,105 +140,4 @@ hr {
 .footer-contact-insta {
   width: 30%;
   height: 20%;
-}
-
-.footer {
-  background-color: #172e52;
-  color: white;
-  width: 100%;
-  padding: 2% 0; /* Increased padding for better spacing */
-  margin: 0;
-  margin-bottom: 0;
-}
-
-.footer-text {
-  display: flex;
-  justify-content: center; /* Centering the text within the footer */
-  align-items: center;
-  margin-top: 1%;
-  text-align: center;
-}
-
-.footer-text h4 {
-  margin-left: 3%;
-  margin-top: 1%;
-  font-size: 110%; /* Slightly larger for better readability */
-}
-
-.footer-text h3 {
-  font-size: 150%; /* Make the main title larger */
-  font-weight: 700; /* Bold the title */
-}
-
-hr {
-  width: 80%; /* Wider for better proportion */
-  border-color: #8b97a9;
-  margin: 2% auto; /* Center the horizontal rule */
-  border-width: 1px;
-}
-
-.footer-contact {
-  text-align: center;
-  display: flex;
-  justify-content: space-evenly; /* Space the contact sections evenly */
-  margin-top: 2%; /* Added margin for better separation */
-  padding: 0 5%; /* Padding for horizontal space */
-}
-
-.footer-contact-main,
-.footer-contact-map,
-.footer-contact-insta {
-  width: 25%; /* Equal width for all contact sections */
-}
-
-.footer-contact-main h4, .footer-contact-map h4 {
-  font-size: 110%;
-  margin-bottom: 1%;
-  margin-top: 1%;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #ffffff;
-}
-
-.footer-contact p {
-  font-size: 95%;
-  margin: 2% 0;
-  color: #cfd8dc; /* Lighten the text color for a softer look */
-}
-
-.footer-contact-insta {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-contact-insta img {
-  width: 20%; /* Make the Instagram icon more prominent */
-  height: auto;
-  transition: transform 0.3s ease;
-}
-
-.footer-contact-insta img:hover {
-  transform: scale(1.1); /* Slightly enlarge the icon on hover */
-}
-
-.footer-contact-map p {
-  font-size: 95%;
-  color: #cfd8dc;
-}
-
-.footer-contact-map {
-  text-align: left;
-}
-
-.footer-contact-main, .footer-contact-map {
-  text-align: left;
-}
-
-.footer-contact-insta {
-  text-align: center;
-}
-
-.footer-text br {
-  display: none; /* Removed the BR tags for better spacing control */
 }
