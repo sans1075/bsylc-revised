@@ -86,20 +86,7 @@ p {
 }
 
 .footer-text {
-  display: flex;
-  margin-left: 33%;
   margin-top: -2%;
-}
-
-.footer-text h4 {
-  margin-left: 3%;
-  margin-top: 11%;
-}
-
-.footer-text br {
-  display: block;
-  content: "";
-  margin-top: -4%;
 }
 
 hr {
